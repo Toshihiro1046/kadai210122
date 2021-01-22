@@ -1,0 +1,52 @@
+#app1{
+    display: flex;
+    font-size: 15px;
+    overflow: scroll;
+    margin-bottom: 60px;
+  }
+  
+  .autoplay-slider2{
+    display: flex;
+    margin-top: 20px;
+    min-width:100%;
+    width:min-content;
+    animation: 25s linear infinite sliderAnimation;
+  }
+  
+  .autoplay-slider2:hover {
+    animation-play-state: paused;
+  }
+  
+  #app2{
+    display: flex;
+    font-size: 15px;
+    
+  }
+  
+  @keyframes sliderAnimation {
+    100% {
+      transform: translatex(-50%);
+    }
+  }
+  
+  .title_1{
+      margin: 50px auto;
+      width: 100%;
+      font-size: 80%;
+  }
+  
+  .word{
+      font-size: 30px;
+      margin-bottom: 20px;
+  }
+  
+  
+  .t2{
+      margin-top:20px;
+      margin-bottom: 5px;
+      font-size: 25px;
+  }
+  
+  body{
+      background-color: #ddfaff;
+  }
